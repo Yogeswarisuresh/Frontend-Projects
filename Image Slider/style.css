@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(106, 80, 106);
+}
+.container{
+    min-height: 80vh;
+    width: 80%;
+    border: 10px solid black;
+    margin: 4em auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px ;
+    position: relative;
+    background: url('/Image Slider/media/img2.jpg') center/cover fixed no-repeat;
+}
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: -6%;
+    background-color: white;
+    padding: .2em;
+    border-radius: 1em;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
+.btn-right{
+    position: absolute;
+    top: 50%;
+    left: 102%;
+    background-color: white;
+    padding: .2em;
+    border-radius: 1em;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}

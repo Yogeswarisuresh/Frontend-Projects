@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkkhaki;
+    text-align: center;
+    margin-top: .5em;
+    font-weight: bolder;
+}
+h2{
+    color: rgb(48, 70, 11);
+}
+#gameboard{
+    border: 3px solid black;
+}
+#score{
+    font-size: 2em;
+}

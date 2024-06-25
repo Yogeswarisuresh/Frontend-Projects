@@ -1,0 +1,53 @@
+body{
+    background: rgb(72,126,150);
+    background: linear-gradient(175deg, rgba(72,126,150,1) 38%, rgba(250,171,0,1) 90%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+#form{
+    height: 65vh;
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 1%;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(72,126,150);
+}
+button{
+    background-color: rgb(72,126,150);
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0px;
+    cursor:pointer;
+    width: 100%;
+    font-size: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.input input{
+    border: 1px solid rgb(72,126,150);
+    border-radius: 5px;
+    margin-top: 5px; 
+    padding: 10px;
+}
+.input input:focus{
+    outline: 0;
+}
+.input .error{
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.input.success input{
+    border-color: green;
+}
+.input.error input{
+    border-color: red;
+}

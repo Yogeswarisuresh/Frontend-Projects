@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(246, 232, 176);
+}
+h2{
+    color: rgb(35, 72, 35);
+    text-align: center;
+    padding: 20px 20px;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(4,120px);
+    grid-row-gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+#gameboard div{
+    height: 150px;
+    width: 80px;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    background-color: whitesmoke;
+}
+.cardback{
+    background: radial-gradient(circle at 50% 100%, #8a6aad80 5%, #8a6aad 5% 10%, #8a6aad80 10% 15%, #8a6aad 15% 20%, #8a6aad80 20% 25%, #8a6aad 25% 30%, #8a6aad80 30% 35%, #8a6aad 35% 40%, transparent 40%), radial-gradient(circle at 100% 50%, #8a6aad80 5%, #8a6aad 5% 10%, #8a6aad80 10% 15%, #8a6aad 15% 20%, #8a6aad80 20% 25%, #8a6aad 25% 30%, #8a6aad80 30% 35%, #8a6aad 35% 40%, transparent 40%), radial-gradient(circle at 50% 0%, #8a6aad80 5%, #8a6aad 5% 10%, #8a6aad80 10% 15%, #8a6aad 15% 20%, #8a6aad80 20% 25%, #8a6aad 25% 30%, #8a6aad80 30% 35%, #8a6aad 35% 40%, transparent 40%), radial-gradient(circle at 0 50%, #8a6aad80 5%, #8a6aad 5% 10%, #8a6aad80 10% 15%, #8a6aad 15% 20%, #8a6aad80 20% 25%, #8a6aad 25% 30%, #8a6aad80 30% 35%, #8a6aad 35% 40%, transparent 40%);
+    background-size: 3em 3em;
+    background-color: #fafafa;
+    opacity: 1;
+}
+.fas{
+    background: none;
+    background-color: transparent;
+    border: none;
+}
+.won{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(101, 25, 25);
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+}
